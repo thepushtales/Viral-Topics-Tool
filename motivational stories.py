@@ -16,13 +16,8 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-    "Self Improvement", "Success Motivation", "Morning Motivation", "Discipline Motivation",
-    "No Excuses", "Motivational Speech", "Mindset Shift", "Never Give Up", "Keep Going",
-    "Motivational Video", "Hustle Motivation", "Hard Work Pays Off", "Achieve Your Goals",
-    "Daily Motivation", "Growth Mindset", "Believe in Yourself", "Overcome Failure",
-    "Stay Focused", "Mental Toughness", "Push Yourself", "Don't Quit", "Motivation for Success",
-    "Grind Never Stops", "Work Hard Stay Humble", "Unlock Your Potential", "Success Mindset",
-    "Chase Your Dreams", "Discipline Over Motivation", "You Can Do It", "Mind Over Matter"
+    " Mindset & Self-Discipline Stories ", " Laziness & Time Management Stories ", " Happiness & Self-Acceptance Stories ", " Confidence & Success Stories ",
+    " Struggles & Life Lessons Stories ", " Money & Career Stories "
 ]
 # Fetch Data Button
 if st.button("Fetch Data"):
